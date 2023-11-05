@@ -1,7 +1,7 @@
 node {
 	stage('SCM Checkout') {		
 		echo 'checkout stage started'
-		git 'https://github.com/RajenderSingh/DemoJenkinsfile'
+		git 'https://github.com/prakhar-chandrakar/DemoJenkinsfile.git'
 		echo 'checkout stage completed'			
 	}
 	stage('Compile Stage') {		
